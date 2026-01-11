@@ -1,0 +1,80 @@
+.projects {
+
+    h2 {
+        text-align: center;
+
+        color: var(--red);
+        font-size: var(--subtitle);
+        font-family: var(--font-subtitle);
+        line-height: var(--lh-title);
+        align-items: center;
+    }
+
+    span {
+        display: flex;
+        justify-content: center;
+
+        color: var(--gray-100);
+        font-family: var(--font-title);
+        font-size: var(--title-md);
+        font-weight: var(--weight-bold);
+        line-height: var(--lh-title);
+
+        margin-block: 8px 56px;
+    }
+
+    .project-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+
+        width: 1040px;
+        margin: auto;
+
+
+        .card {
+            width: 330px;
+            height: 280px;
+            background-color: rgba(41, 44, 52, 1);
+
+            display: flex;
+            flex-direction: column;
+
+            border-radius: 8px;
+
+
+            img {
+                width: 306px;
+                height: 156px;
+                border-radius: 8px;
+                margin: 12px 12px 20px 12px;
+            }
+
+            div {
+                width: 306px;
+                height: 75px;
+            }
+
+            h3 {
+                margin-left: 16px;
+                margin-bottom: 8px;
+
+                color: var(--gray-100);
+                font-family: var(--font-title);
+                font-size: var(--title-sm);
+                line-height: var(--lh-title);
+            }
+
+            p {
+                margin-left: 16px;
+                color: var(--gray-200);
+                font-size: var(--text-sm);
+                font-family: var(--font-text);
+                line-height: var(--lh-text);
+            }
+        }
+
+
+    }
+
+}
