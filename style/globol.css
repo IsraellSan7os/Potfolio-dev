@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* =========================
+     🎨 Cores Principais
+  ========================== */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* =========================
+     ⚪ Escala de Cinza (Base)
+  ========================== */
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+    /* =========================
+     ✍️ Tipografia
+  ========================== */
+    --font-title: 'Asap', sans-serif;
+    --font-subtitle: 'Inconsolata', monospace;
+    --font-text: 'Maven Pro', sans-serif;
+
+    /* =========================
+     🔠 Tamanhos de Fonte
+  ========================== */
+    --title-lg: 56px;
+    --title-md: 24px;
+    --title-sm: 16px;
+
+    --subtitle: 20px;
+
+    --text-md: 16px;
+    --text-sm: 14px;
+
+    /* =========================
+     📏 Line Height
+  ========================== */
+    --lh-title: 120%;
+    --lh-text: 140%;
+
+    /* =========================
+     ⚖️ Font Weight
+  ========================== */
+    --weight-bold: 700;
+    --weight-regular: 400;
+}
